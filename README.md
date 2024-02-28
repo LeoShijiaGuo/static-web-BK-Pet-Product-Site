@@ -1,7 +1,7 @@
 There are two ways to run it locally:
 
 ## Using Visual Studio Code
-1. Install the "live server" extension.
+1. Install the "live server" extension in your Visual Studio Code.
 2. Open your terminal.
 3. In your terminal, navigate to where you saved this repository locally.
 4. Right-click the index.html file.
