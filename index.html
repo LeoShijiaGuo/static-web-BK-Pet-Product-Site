@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+  </head>
+
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a id="headerBK" class="navbar-item" href=" ">
+          BK PETS
+        </a>
+      </div>
+    </nav>
+
+  <!-- the slides 2nd section -->
+  <section class="hero is-link is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <h1 id="slogan" class="title">
+          The best<br>products for<br>your dog
+        </h1>
+        <h2 class="subtitle" >
+          Because your dogs deserve to be at their happiest
+        </h2>
+        <a class="button is-black is-medium">Learn more</a>
+      </div>
+      <div class="container">
+        <!-- Placeholder for carousel -->
+        <div class="carousel">
+          <img class="slide" src="https://cs5356.intricatecloud.io/img/pexels-karolina-grabowska-4465828.jpg" alt="Product Image 1" >
+          <img class="slide" src="https://cs5356.intricatecloud.io/img/pexels-castorly-stock-3872899.jpg" alt="Product Image 2" >
+          <img class="slide" src="https://cs5356.intricatecloud.io/img/pexels-sarah-chai-7262687.jpg" alt="Product Image 3">
+          <img class="slide" src="https://cs5356.intricatecloud.io/img/pexels-karolina-grabowska-4202321.jpg" alt="Product Image 4" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- my payment section 3rd section-->
+
+<section class="section is-fullheight">
+  <div class="container">
+    <div class="columns is-vcentered is-desktop">
+      
+      <div class="column is-half">
+        <div class="box">
+          <div id="carousel" class="carousel">
+          </div>
+        </div>
+        
+        
+        <button id="previous" class="button is-black" onclick="previousImage()" > < </button>
+        <button id="next" class="button is-black" onclick="nextImage()"> > </button>
+          
+      </div>
+
+      <div class="column is-half">
+        <h2 id="product-title" class="title" ></h2>
+        <p id="product-description" ></p>
+        <ul id="product-features" ></ul>
+        <!-- <p id="product-price" style="margin-left: 25px; font-weight: bold;"></p> i dont want this anymore, because it doesnt match the figmat template-->
+        <a id="product-link" class="button is-black is-large" >Buy Now</a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- my vows for the customers -->
+  <section id="reviews" class="section">
+
+    <div id="vows" class="container has-text-centered">
+      <h2 class="title">BK Pets customer reviews</h2>
+      <p>We value the feedback from our customers.</p>
+      <p>We do this product, because we put our heart into it,</p>
+      <p>We believe this is the only way to make great product.</p>
+    </div>
+    
+
+    <!-- customer reviews-->
+    <section class="section is-fullheight">
+      <div class="container">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <img class="Testimonials-slide" src="./assets/2.webp" alt="customer1">
+              <p>@someoneinCornell</p>
+              <p>Great product, I will renew it soon</p>
+              <p >3 days ago</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <img class="Testimonials-slide" src="./assets/1.webp" alt="customer2">
+              <p>@someoneinCornellTech</p>
+              <p>I love it</p>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <img class="Testimonials-slide" src="./assets/3.webp" alt="customer3">
+              <p>@someoneoninNYC</p>
+              <p>This is the best pet wash I have ever used!</p>
+              <p>10 days ago</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+    <!-- foot-->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <p id="footbk">BK PETS</p>
+          <p>© 2010 — 2024</p>
+          <p><a href="#">Privacy</a> — <a href="#">Terms</a></p>
+        </div>
+        <div class="footer-section">
+          <p id="followus">Follow us on</p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Facebook</a></p>
+        </div>
+      </div>
+    </footer>
+
+</body>
+</html>
